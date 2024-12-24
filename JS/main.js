@@ -21,13 +21,6 @@ let showResult = (monthlyPayment, totalPayment) => {
     // show result
     document.querySelector('.monthly-repay').textContent = `£${monthlyPayment}`;
     document.querySelector('.total-repay').textContent = `£${totalPayment}`;
-
-    // empty input
-    amountInput.value = '';
-    yearInput.value = '';
-    rateInput.value = '';
-    repaymentCheckBox.checked = false;
-    interestCheckBox.checked = false;
 };
 
 // Calculate repayment
