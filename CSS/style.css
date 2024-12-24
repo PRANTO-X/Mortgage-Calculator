@@ -40,6 +40,7 @@ body{
     grid-template-columns: repeat(2,1fr);
     background: white;
     border-radius: 15px;
+    box-shadow: 0 0 8px rgb(0, 0, 0,0.5);
 }
 
 /* Container Left */
