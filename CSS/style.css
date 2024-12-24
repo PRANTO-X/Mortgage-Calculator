@@ -372,6 +372,9 @@ label{
     .container {
         grid-template-columns: 1fr;
     }
+    .container-left{
+        border-radius: 0;
+    }
 
     .container-right {
         border-radius: 0;
